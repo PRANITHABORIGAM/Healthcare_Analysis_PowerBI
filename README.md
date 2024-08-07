@@ -1,17 +1,14 @@
 
-# Power-BI-Healthcare-Analytic-Dashboard
-## Project Objective:
-### The project aims to create a comprehensive and efficient system for recording and tracking patients' emergency room visits, developing a platform that provides accurate and timely reports for medical staff and administrators, and ultimately improving the overall management and analysis of emergency room visits to enhance patient care and resource allocation.
-
-## Project Insights:
-Average Wait Time: Discover how long patients typically wait before their appointments. Uncover patterns and trends that shed light on the efficiency of our healthcare system.  
-
-Patient Satisfaction: We'll explore the average satisfaction scores given by our patients. Learn about the factors that contribute to a positive patient experience and how we can enhance it.  
-
-Total Patient Visits Monthly: Get an overview of the ebb and flow of patients through our doors each month. Understand the dynamics of healthcare demand over time.  
-
-Administrative vs. Non-Administrative Appointments: Delve into the data to distinguish between appointments that involve administrative processes and those that don't. Explore the impact on wait times and patient satisfaction.  
-
-Referrals and Walk-In Patients: Uncover the balance between patients referred to specific departments and those who walk in without prior referral. How does this impact the overall patient experience?  
-
-Patient Visits by Age Group and Race: Explore the distribution of patient visits across different age groups and races. Gain insights into the diversity of healthcare needs and preferences.  
+# EDA-Healthcare-Analytic
+## 1. Patient Appointment Trends:
+Problem: The healthcare provider was facing challenges in understanding the patterns of patient appointments and no-shows, leading to inefficiencies in scheduling and resource allocation.  
+Action: Collected and analyzed appointment data, focusing on demographic factors such as gender and age to identify patterns in show rates.  
+Result: Discovered that female patients booked 15% more appointments than male patients, and Age 0 and Age 1 groups had an 80% show rate, which was higher than other age groups. These insights helped optimize appointment scheduling and improve resource allocation.  
+## 2. Impact of Health Conditions and Interventions:
+Problem: The healthcare provider needed to assess the effectiveness of interventions like SMS reminders and understand the impact of health conditions on appointment attendance to improve patient engagement.  
+Action: Analyzed data on patients' health conditions (hypertension and diabetes) and evaluated the effect of receiving SMS reminders on attendance rates.  
+Result: Found that 78% of patients without hypertension attended their appointments compared to 85% with hypertension, and 80% of patients without diabetes attended compared to 83% with diabetes. Additionally, 84% of patients without SMS reminders attended their appointments versus 72% who received reminders. These findings led to targeted interventions that improved patient engagement.  
+## 3. Operational Insights:
+Problem: The healthcare provider needed to optimize appointment scheduling and reduce no-shows by understanding the operational trends in appointment volumes.  
+Action: Analyzed appointment data by neighborhood and day of the week to identify patterns in show rates and appointment volumes.  
+Result: Identified that neighborhood show rates were consistently at 80%, and no appointments were scheduled on Sundays, with significantly fewer appointments on Saturdays compared to other weekdays. These insights facilitated better scheduling practices and resource utilization.  
